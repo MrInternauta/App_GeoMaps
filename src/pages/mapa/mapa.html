@@ -1,0 +1,17 @@
+
+
+<ion-header>
+
+  <ion-navbar color="primary">
+    <div class="">
+      <img src="assets/img/logo.png" width="25%"> RUTA
+    </div>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <agm-map [latitude]="lat" [longitude]="lng" [zoom]="22">
+    <agm-marker [latitude]="lat" [longitude]="lng"></agm-marker>
+  </agm-map>
+
+</ion-content>
